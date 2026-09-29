@@ -1,0 +1,15 @@
+{
+  "name": "X-SPARK",
+  "short_name": "X-SPARK",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00FF88",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/138/138147.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
