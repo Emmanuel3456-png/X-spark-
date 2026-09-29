@@ -7,7 +7,7 @@
   <link rel="manifest" href="/manifest.json" />
   <meta name="theme-color" content="#00FF88" />
   <style>
-    *{margin:0;padding:0;box-sizing:border-box;font-family: -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+    *{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
     body{background:#0a0a0a;color:#fff;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px;text-align:center}
     .logo{font-size:48px;font-weight:900;letter-spacing:-2px;background:linear-gradient(90deg,#00FF88,#00D1FF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;margin-bottom:10px}
     .tag{color:#888;margin-bottom:30px;font-size:16px}
@@ -28,32 +28,30 @@
   <div class="tag">Build • Ship • Get Paid</div>
 
   <div class="card">
-    <div class="price">LIMITED ACCESS</div>
+    <div class="price">LIMITED ACCESS - ₦45K</div>
     <div class="title">Unlock X-SPARK Builder</div>
-    <div class="desc">Get instant access to X-SPARK Pro. Build apps, websites & funnels without code. One payment, lifetime access.</div>
+    <div class="desc">Lifetime access to X-SPARK Builder. Build apps, websites, PWA to APK. Instant access after payment.</div>
     
-    <!-- YOUR PAY BUTTON - CORRECT VERSION -->
+    <!-- PAY BUTTON - FINAL CORRECT LINK -->
     <button class="btn" onclick="pay()">PAY ₦45K NOW → BUILD</button>
     
-    <div class="secure">🔒 Secure Payment by Selar • Instant Access</div>
+    <div class="secure">🔒 Secure Payment by Selar • Instant Access • LIVE</div>
 
     <div class="features">
       <div><span>✓</span> X-SPARK Builder Access</div>
       <div><span>✓</span> PWA to APK Export</div>
       <div><span>✓</span> Netlify Deploy Ready</div>
-      <div><span>✓</span> Paystack & Selar Integration</div>
+      <div><span>✓</span> Instant File Delivery</div>
     </div>
   </div>
 
   <script>
-    // --- PAY FUNCTION - SELAR ---
+    // FINAL SELAR LINK - YOUR LIVE PRODUCT
     function pay(){
-      // Correct Selar link format is selar.co/m/...
-      // Change to your exact Selar link below
-      window.location.href='https://selar.co/m/hh3t33s986';
+      window.location.href='https://selar.com/18097b11sa';
     }
 
-    // --- PWA SERVICE WORKER ---
+    // PWA
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
         navigator.serviceWorker.register('/sw.js').catch(() => {});
