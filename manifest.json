@@ -1,24 +1,13 @@
 {
-  "name": "X-SPARK Builder",
+  "name": "X-SPARK Builder - Build Anything in Minutes",
   "short_name": "X-SPARK",
-  "description": "Build \u2022 Ship \u2022 Get Paid - Build apps & websites in minutes",
+  "description": "Build apps and websites in minutes. Ship and get paid.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#00FF88",
-  "orientation": "any",
   "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    {"src":"https://cdn-icons-png.flaticon.com/512/1087/1087815.png","sizes":"192x192","type":"image/png"},
+    {"src":"https://cdn-icons-png.flaticon.com/512/1087/1087815.png","sizes":"512x512","type":"image/png"}
   ]
 }
