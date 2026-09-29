@@ -1,0 +1,36 @@
+
+X-SPARK APK BUILD - FINAL STEPS FOR EMMANUEL
+
+Your site https://emmanuelx-spark.netlify.app is LIVE v4 clean!
+
+TO CREATE REAL APK (5 mins):
+
+1. Go to https://www.pwabuilder.com
+2. Paste: https://emmanuelx-spark.netlify.app
+3. Click Start -> Package for stores -> Android
+4. Package options:
+   - Package ID: com.forgeempire.xspark
+   - Name: X-SPARK Builder
+   - Version: 1.0.0
+   - Display: standalone
+5. Download -> You get app-release-signed.apk
+6. Rename to x-spark.apk
+
+UPLOAD TO NETLIFY:
+- In your x-spark folder, create: downloads/x-spark.apk
+- git add . && git commit -m "Add APK" && git push
+
+Buyers will then download from:
+https://emmanuelx-spark.netlify.app/downloads/x-spark.apk
+
+ALTERNATIVE - Quick PWA Install (No APK needed):
+Your site already works as PWA! Users on Android can:
+- Open site -> Chrome menu -> "Install app" or "Add to Home Screen"
+- It installs like real APK!
+
+SELLING CHECKLIST:
+✅ Selar live: selar.com/18097b11sa - ₦45K
+✅ Website live: emmanuelx-spark.netlify.app - v4 clean
+✅ Access code: XSPARK-2025 (put in Selar PDF)
+✅ Builder API-free - builds instantly
+⏳ APK - build via PWABuilder now
